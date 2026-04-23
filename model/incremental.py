@@ -5,8 +5,8 @@ import numpy as np
 import polars as pl
 import warnings
 
-# 导入我们刚刚重构完成的高级临床评估工具集
-from utils import (
+
+from .utils import (
     _check_config,
     _prepare_surv_data,
     baseline_survival_function,

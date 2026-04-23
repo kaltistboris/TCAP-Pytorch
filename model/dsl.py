@@ -5,8 +5,8 @@ import numpy as np
 import polars as pl
 import json
 
-# 导入高级临床评估工具集
-from utils import (
+
+from .utils import (
     _check_config,
     baseline_survival_function,
     predict_surv_prob,
